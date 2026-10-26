@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Soul — yoga programs for a steadier body, breath and mind: asana, pranayama and meditation.">
+<title>Soul — Yoga, Pranayama & Meditation</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef3f1;--surface:#fff;--text:#2a1f24;--muted:#6f6168;--accent:#0f766e;--accent-text:#fff;--line:#d5e1dd;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1514;--surface:#16201f;--text:#f5ebe7;--muted:#b7a7a1;--accent:#5eead4;--accent-text:#06201d;--line:#27403c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1514;--surface:#16201f;--text:#f5ebe7;--muted:#b7a7a1;--accent:#5eead4;--accent-text:#06201d;--line:#27403c;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.1;margin:0}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:22px}
+.logo span{color:var(--accent)}
+nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;font-size:14px;color:var(--muted)}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-text);padding:12px 22px;border-radius:999px;font-weight:600;font-size:15px}
+.btn.ghost{background:none;color:var(--text);border:1px solid var(--line)}
+.hero{padding:88px 0 72px}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--accent);font-weight:600}
+.hero h1{font-size:clamp(40px,7vw,76px);margin:16px 0 20px;max-width:12em}
+.hero p{max-width:34em;color:var(--muted);font-size:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px;border-top:1px solid var(--line);padding-top:28px}
+.stats b{font-family:Fraunces,serif;font-size:34px;display:block}
+.stats span{color:var(--muted);font-size:14px}
+section{padding:72px 0}
+section h2{font-size:clamp(28px,4vw,42px);margin:10px 0 36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:26px}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.card small{display:block;margin-top:14px;color:var(--accent);font-weight:600}
+.about{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;align-items:center}
+.portrait{aspect-ratio:4/5;border-radius:22px;background:linear-gradient(145deg,var(--accent),#134e4a);display:grid;place-items:center;color:#fff;font:700 96px Fraunces,serif}
+.about p{color:var(--muted)}
+.table{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:480px}
+th,td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--line);font-size:15px}
+th{color:var(--muted);font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+tr:last-child td{border-bottom:0}
+.price{font-family:Fraunces,serif;font-size:36px;margin:8px 0}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:48px 28px;text-align:center}
+.contact p{color:var(--muted);max-width:30em;margin:0 auto 24px}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
+@media(max-width:720px){nav ul{display:none}.about{grid-template-columns:1fr}.portrait{max-width:260px}.hero{padding-top:56px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#top">Sou<span>l</span></a>
+<ul><li><a href="#programs">Programs</a></li><li><a href="#about">About</a></li><li><a href="#schedule">Schedule</a></li><li><a href="#plans">Plans</a></li></ul>
+<a class="btn" href="#join">Join now</a>
+</nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+<div class="eyebrow">Asana · Pranayama · Meditation</div>
+<h1>Find your breath. Move with calm.</h1>
+<p>Soul offers modern yoga programs that build a steadier body, deeper breath and a quieter mind, with classes for every level.</p>
+<div class="cta"><a class="btn" href="#join">Book a free class</a><a class="btn ghost" href="#programs">Explore classes</a></div>
+<div class="stats"><div><b>6</b><span>Yoga programs</span></div><div><b>All</b><span>Levels welcome</span></div><div><b>1:1</b><span>Personal guidance</span></div></div>
+</div>
+
+<section id="programs"><div class="wrap">
+<div class="eyebrow">Programs</div><h2>Find the practice that fits you</h2>
+<div class="grid">
+<div class="card"><h3>Hatha Yoga</h3><p>Slow, grounded postures held with steady breath to build strength, balance and flexibility.</p><small>60 min · Beginner friendly</small></div>
+<div class="card"><h3>Vinyasa Flow</h3><p>Breath-led sequences that link movement to inhale and exhale for stamina and focus.</p><small>60 min · All levels</small></div>
+<div class="card"><h3>Power Yoga</h3><p>A dynamic, strength-building practice with longer holds and core work.</p><small>50 min · Intermediate</small></div>
+<div class="card"><h3>Pranayama &amp; Breathwork</h3><p>Guided breathing techniques to calm the nervous system and boost energy.</p><small>30 min · All levels</small></div>
+<div class="card"><h3>Meditation &amp; Yoga Nidra</h3><p>Seated meditation and deep guided relaxation for better sleep and less stress.</p><small>40 min · All levels</small></div>
+<div class="card"><h3>Private Sessions</h3><p>A personal yoga plan for your goals, injuries or schedule, online or in person.</p><small>Custom · By appointment</small></div>
+</div></div></section>
+
+<section id="about"><div class="wrap about">
+<div class="portrait" role="img" aria-label="Soul">S</div>
+<div>
+<div class="eyebrow">Meet your teacher</div>
+<h2 style="margin-bottom:16px">Soul</h2>
+<p>Founder and lead yoga teacher at Soul. We believe yoga is for every body, not only the flexible. Our classes focus on mindful alignment, steady breathing and building a practice that fits real life.</p>
+<p>Whether you are stepping on the mat for the first time, returning after a break or deepening your practice, you will get gentle guidance and clear cues at your own pace.</p>
+</div></div></section>
+
+<section id="schedule"><div class="wrap">
+<div class="eyebrow">Weekly schedule</div><h2>Sample class timetable</h2>
+<div class="table"><table>
+<tr><th>Day</th><th>Morning</th><th>Evening</th></tr>
+<tr><td>Mon · Wed · Fri</td><td>Hatha Yoga</td><td>Vinyasa Flow</td></tr>
+<tr><td>Tue · Thu</td><td>Pranayama &amp; Breathwork</td><td>Power Yoga</td></tr>
+<tr><td>Saturday</td><td>Vinyasa Flow</td><td>Meditation &amp; Yoga Nidra</td></tr>
+<tr><td>Sunday</td><td colspan="2">Rest &amp; reflection</td></tr>
+</table></div>
+<p style="color:var(--muted);font-size:14px;margin-top:14px">Timings are indicative. Confirm current batches with Soul.</p>
+</div></section>
+
+<section id="plans"><div class="wrap">
+<div class="eyebrow">Membership</div><h2>Simple plans</h2>
+<div class="grid">
+<div class="card"><h3>Drop-in</h3><div class="price">Per class</div><p>Try any class with no commitment.</p></div>
+<div class="card"><h3>Monthly</h3><div class="price">Unlimited</div><p>Attend every group class in a month.</p></div>
+<div class="card"><h3>Private</h3><div class="price">Custom</div><p>Personal yoga plan with weekly check-ins.</p></div>
+</div>
+<p style="color:var(--muted);font-size:14px;margin-top:14px">Pricing shared on enquiry.</p>
+</div></section>
+
+<section id="join"><div class="wrap"><div class="contact">
+<h2 style="margin-bottom:14px">Ready to feel balanced?</h2>
+<p>Book a free yoga class and start your journey with Soul today.</p>
+<a class="btn" href="#top">Contact Soul</a>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Soul</div></footer>
+</body>
+</html>
